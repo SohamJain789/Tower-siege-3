@@ -27,7 +27,7 @@ class Box {
     else{
     World.remove(world,this.body)
     push();
-    this.Visibility = this.visibility - 5;
+    this.Visibility = this.Visibility - 5;
     //tint(255,this.visibility);
     //image(this.image,this.body.position,this.body.position.y,50,50);
     pop()
@@ -35,7 +35,7 @@ class Box {
     
   }
  score(){
- if(this.Visibility<0 && this.Visibility> -105){
+ if(this.Visibility<0 && this.Visibility> -1005){
     score++;   
  }   
  }

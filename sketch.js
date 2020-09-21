@@ -65,8 +65,8 @@ function draw() {
 
     noStroke();
     textSize(35);
-    fill("white");
-    text("Score:"+ score,width-300, 50);
+    fill(0,0,0);
+    text("Score:"+ score,width-350, 50);
 
      Engine.update(engine);
      stand1.display(); 
